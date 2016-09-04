@@ -1,0 +1,11 @@
+# Site settings
+title: Binary Penguin Networks Theme
+email: admin@binarypenguin.net
+description: > # this means to ignore newlines until "baseurl:"
+   A network of sites powered by penguin minions.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://binarypenguin.net" # the base hostname & protocol for your site
+github_username:  binarypenguin
+
+# Build settings
+markdown: kramdown

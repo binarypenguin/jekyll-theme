@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<img class='logo center-block' type="image/svg+xml" src="/system/imgs/penguin.svg" />
+<div class="container center-block text-center">
+      <h1>
+		<span class="glyphicon glyphicon-alert"></span>
+                {% if page.code %}{{ page.code }}{% endif %}
+                {% if page.description %}<small>{{ page.description }}</small>{% endif %}
+		<span class="glyphicon glyphicon-alert"></span>
+      </h1>
+</div>

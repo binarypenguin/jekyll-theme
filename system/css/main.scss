@@ -1,0 +1,37 @@
+---
+#
+---
+@import url(//fonts.googleapis.com/css?family=Titan+One);
+
+body {
+	/* font-family: 'Titan One', cursive; */
+	background-color: #FFF;
+	color: #333;
+}
+
+.logo { margin-top: 50px; }
+
+a:link {color: #ff9955;} /* unvisited link */
+a:visited {color: #ff9955;} /* visited link */
+a:hover {color: #333;} /* mouse over link */
+a:active {color: #ff9955;} /* selected link */
+
+.menu-item:link {color: #333} /* unvisited link */
+.menu-item:visited {color: #333;} /* visited link */
+.menu-item:hover {color: #ff9955;} /* mouse over link */
+.menu-item:active {color: #333;} /* selected link */
+
+.digitalocean {
+	height: 50px;
+}
+
+.main-icons {
+	font-size: 6em;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 28px;
+}
+.navbar {min-height:28px !important; }
